@@ -1,6 +1,10 @@
 logging:
   level:
     org.springframework.test: DEBUG
+    com.github.tomakehurst.wiremock: DEBUG
+    org:
+      wiremock:
+        spring: DEBUG
 
 demo-service:
   base-url: http://localhost:8045
